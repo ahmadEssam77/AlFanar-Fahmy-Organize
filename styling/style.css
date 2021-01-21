@@ -1,0 +1,33 @@
+/* Global Styling*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #444;
+}
+
+/* Styling The Nav Bar */
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #fff;
+    height: 12vh;
+}
+
+.nav-items ul li {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 20px;
+}
+
+.nav-items ul li a {
+    text-decoration: none;
+}
+
+
+

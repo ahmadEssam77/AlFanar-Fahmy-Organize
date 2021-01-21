@@ -1,0 +1,15 @@
+/* For Media Query Only */
+
+@media screen and   (max-width: 500px) {
+    .nav-bar img {
+        width: 130px;
+    }
+
+    .nav-bar .nav-items ul li:nth-child(4){
+        display: none;
+    }   
+
+    .nav-bar .social-icons {
+        display: none;
+    }
+}
