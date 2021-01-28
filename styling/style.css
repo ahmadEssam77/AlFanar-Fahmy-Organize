@@ -6,9 +6,12 @@
 body {
     margin: 0;
     padding: 0;
-    background: #444;
+    /* background: #444; */
 }
 
+h1 {
+  text-align: center;
+}
 /* Styling The Nav Bar */
 .nav-bar {
     display: flex;
@@ -27,6 +30,10 @@ body {
 
 .nav-items ul li a {
     text-decoration: none;
+}
+
+.current {
+  color: orange;
 }
 /* End Styling The Nav Bar */
 /* Slide Section */
@@ -172,4 +179,41 @@ img {vertical-align: middle;}
   display: grid;
   grid-template-areas: 'img img img';
   grid-gap: 30px;
+  /* justify-content: space-evenly; */
 }
+
+.gallery-images p {
+  padding-top: 20px;
+}
+/* End Gallery Section */
+
+/* About El Fanar Section */
+
+.about-elfanar {
+  background: #003057;
+  height: 730px;
+}
+
+/* .small-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+} */
+
+.for-elfanar {
+  padding-top: 60px;
+}
+
+.small-container {
+  display: grid;
+  grid-template-areas: 'text img';  
+}
+
+/* Footer - Contact Form */
+
+/* .my-form {
+  border-radius: 30px;
+  border: 2px solid #fff;
+  box-shadow: 5px 5px 5px #fff;
+} */
