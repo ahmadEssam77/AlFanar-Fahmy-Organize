@@ -224,11 +224,54 @@ img {vertical-align: middle;}
 }
 
 /* Footer - Contact Form */
-
 .contact-form {
-  border: 3px solid #444;
-  margin: 0 30px;
-  margin-top: 10vh;
+  border: 3px solid #fff;
+  width: 1000px;
+  height: 450px;
+  margin: 0 auto;
+  margin-top: 20vh;
   border-radius: 40px;
-  box-shadow: 2px 5px 10px 8px #444;
+  padding: 30px;
+  box-shadow: 0px 1px 20px 5px #ccc;
 }
+
+.contact-form h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 70px;
+}
+
+.contact-form .form-left-side {
+  display: block;
+  margin-bottom: 20px;
+  margin-left: 90px;
+  padding: 10px;
+  border-radius: 20px;
+  width: 330px;
+}
+
+.contact-form textarea {
+  position: relative;
+  right: -480px;
+  top: -180px;
+  width: 330px;
+  height: 100px;
+}
+
+.contact-form .submit-btn {
+  display: block;
+  position: relative;
+  right: -480px;
+  top: -165px;
+  width: 330px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.contact-form .submit-btn:hover {
+  cursor: pointer;
+  background: #003057;
+  color: orange;
+}
+
+/* End Contact Form Style */
