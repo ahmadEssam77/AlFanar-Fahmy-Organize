@@ -6,7 +6,6 @@
 body {
     margin: 0;
     padding: 0;
-    /* background: #444; */
 }
 
 h1 {
@@ -19,7 +18,7 @@ h1 {
     justify-content: space-evenly;
     align-items: center;
     background: #fff;
-    height: 12vh;
+    height: 11vh;
 }
 
 .nav-items ul li {
@@ -32,62 +31,35 @@ h1 {
     text-decoration: none;
 }
 
+.nav-items ul li a:hover {
+  color: orange;
+}
+
 .current {
   color: orange;
 }
+
+.social-icons {
+  border-right: 1px solid #444;
+  padding-right: 25px;
+}
+
+.social-icons a{
+  padding-left: 40px;
+}
+
+.social-icons a:hover {
+  color: orange;
+}
 /* End Styling The Nav Bar */
-/* Slide Section */
-/* .slide-container {
-    width: 800px;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    text-align: center;
-}
-
-.image-container {
-    width: 2400px;
-    height: 600px;
-    position: relative;
-    transition: all 2s ease-in-out;
-}
-
-.slider-image {
-    float: left;
-    margin: 0;
-    padding: 0;
-}
-
-.btn-container {
-    position: relative;
-    top: -30px;    
-}
-
-.slider-btn {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    border-radius: 5px;
-    background-color: #fff;
-}
-
-#slider-image-1:target ~ .image-container {
-    left: 0;
-}
-
-#slider-image-2:target ~ .image-container {
-    left: -800px;
-}
-
-#slider-image-3:target ~ .image-container {
-    left: -1600px;
-} */
-/* End Slide Section */
 
 /* W3school Slide */
-.mySlides {display: none}
-img {vertical-align: middle;}
+.mySlides {
+  display: none
+}
+img {
+  vertical-align: middle;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -134,6 +106,18 @@ img {vertical-align: middle;}
   text-align: center;
 }
 
+.text .details-btn {
+    padding: 13px;
+    border-radius: 25px;
+    width: 145px;
+    color: orange;
+    border: none;
+}
+
+.text .details-btn:hover {
+  cursor: pointer;
+}
+
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
@@ -177,9 +161,10 @@ img {vertical-align: middle;}
 /* Gallery Section */
 .gallery {
   display: grid;
-  grid-template-areas: 'img img img';
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-areas: 'img img img'; */
   grid-gap: 30px;
-  /* justify-content: space-evenly; */
+  margin: 0 80px;
 }
 
 .gallery-images p {
@@ -193,13 +178,6 @@ img {vertical-align: middle;}
   background: #003057;
   height: 730px;
 }
-
-/* .small-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-} */
 
 .for-elfanar {
   padding-top: 60px;
@@ -268,6 +246,7 @@ img {vertical-align: middle;}
   width: 330px;
   padding: 10px;
   border-radius: 20px;
+  background: orange;
 }
 
 .contact-form .submit-btn:hover {
@@ -277,3 +256,30 @@ img {vertical-align: middle;}
 }
 
 /* End Contact Form Style */
+
+/* Footer */
+.logo-footer {
+  text-align: center;
+  margin-top: 19vh;
+}
+
+.logo-footer img{
+  width: 340px;
+}
+
+.social-icons-footer {
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.social-icons-footer li {
+  display: inline-block;
+}
+
+.branches-footer {
+  text-align: center;
+}
+
+.branches-footer li {
+  display: inline-block;
+}
